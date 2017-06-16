@@ -14,42 +14,42 @@ column of new_count.txt
 
 Alternativley (using the -s option), you can use this script to combine the lines of just one file, but you can only do this for the first column, For example, if your file had the following lines
 
-100     F5GWI4
+    100     F5GWI4
 
-100     P00813
+    100     P00813
 
-1000    A8MWK3
+    1000    A8MWK3
 
-1000    P19022
+    1000    P19022
 
-10000   Q9Y243
+    10000   Q9Y243
 
-10001   B4DU17
+    10001   B4DU17
 
-10001   B4E2P0
+    10001   B4E2P0
 
-10001   O75586
+    10001   O75586
 
-10002   B6ZGU0
+    10002   B6ZGU0
 
-10002   Q9Y5X4
+    10002   Q9Y5X4
 
-10002   F1D8Q9
+    10002   F1D8Q9
 
-10005   O14734
+    10005   O14734
 
-10005   E9PRD4
+    10005   E9PRD4
 
 Using the -s option will produce:
 
-100     F5GWI4  P00813
-1000    A8MWK3  P19022
+    100     F5GWI4  P00813
 
+    1000    A8MWK3  P19022
 
-10000   Q9Y243
+    10000   Q9Y243
 
-10001   B4DU17  B4E2P0  O75586
+    10001   B4DU17  B4E2P0  O75586
 
-10002   B6ZGU0  Q9Y5X4  F1D8Q9
+    10002   B6ZGU0  Q9Y5X4  F1D8Q9
 
-10005   O14734  E9PRD4
+    10005   O14734  E9PRD4
