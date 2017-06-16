@@ -1,7 +1,7 @@
 # Command_Line_Utilities
 A set of utilities that are useful for command line (e.g. bash/zsh) manipulation of files
 
-## selectRow.pl
+## mergeRow.pl
 
 Prints the entirety of the first file, along with all rows from the second file that match it.If the second file has rows that do not match the first file,
 they will not be printed, if more than one line from the second file match a single row from the first file, than all of those lines will be printed. If more than
@@ -56,3 +56,14 @@ Using the -s option will produce:
     10005   O14734  E9PRD4
     
 There are other options, that you can see with the command `perl mergeRow.pl -h`
+
+##MergeRow_iterative.py
+This script merges rows of multiple files iteratively for multiple files, based on the files passed to it from the command line. 
+This script depends on `mergeRow.pl` as well as the command `sponge`. All files must be tab delimited
+Usage:
+    mergeRow_iterative.py impute_value file_1.txt value_2.txt etc.
+Example Usage:
+    python mergeRow_iterative.py 0 file_1.txt file_2.txt file_3.txt
+Note that you must give it an impute value, which will be printed if any values from file_1.txt are missing in subsequent files
+    
+
