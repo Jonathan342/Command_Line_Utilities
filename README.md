@@ -6,6 +6,7 @@ Prints the entirety of the first file, along with all rows from the second file 
 they will not be printed, if more than one line from the second file match a single row from the first file, than all of those lines will be printed. If more than
 one line from the first file match a line from the second file, the line from the second file will be printed twice
 Example:
+    
     perl ~/jb3401/scripts/Utils/mergeRow.pl -q 2 exposed_residues_2.tsv new_count.txt
 
 This merges exposed_residues_2.tsv new_count.txt looking to see which row entries from the third colum of exposed_residues_2.tsv match those from the first
