@@ -7,7 +7,7 @@ they will not be printed, if more than one line from the second file match a sin
 one line from the first file match a line from the second file, the line from the second file will be printed twice
 Example:
     
-    perl ~/jb3401/scripts/Utils/mergeRow.pl -q 2 exposed_residues_2.tsv new_count.txt
+    perl mergeRow.pl -q 2 exposed_residues_2.tsv new_count.txt
 
 This merges exposed_residues_2.tsv new_count.txt looking to see which row entries from the third colum of exposed_residues_2.tsv match those from the first
 column of new_count.txt
@@ -53,3 +53,5 @@ Using the -s option will produce:
     10002   B6ZGU0  Q9Y5X4  F1D8Q9
 
     10005   O14734  E9PRD4
+    
+There are other options, that you can see with the command `perl mergeRow.pl -h`
