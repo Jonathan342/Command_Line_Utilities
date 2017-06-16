@@ -1,7 +1,7 @@
 # Command_Line_Utilities
 A set of utilities that are useful for command line (e.g. bash/zsh) manipulation of files
 
-##selectRow.pl
+## selectRow.pl
 
 Prints the entirety of the first file, along with all rows from the second file that match it.If the second file has rows that do not match the first file,
 they will not be printed, if more than one line from the second file match a single row from the first file, than all of those lines will be printed. If more than
