@@ -91,6 +91,9 @@ and file_3.txt has:
     
 Then this will produce:
     ID  file_1.txt  file_2.txt  file_3.txt
+    
     josh    1           12         0
+    
     aaron   2           57          363
+    
     rachel  3           0           354
