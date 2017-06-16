@@ -64,10 +64,12 @@ This script merges rows of multiple files iteratively for multiple files, based 
 This script depends on `mergeRow.pl` as well as the command `sponge`. All files must be tab delimited
 
 Usage:
-    mergeRow_iterative.py impute_value file_1.txt value_2.txt etc.
+   
+   mergeRow_iterative.py impute_value file_1.txt value_2.txt etc.
 
 Example Usage:
-    python mergeRow_iterative.py 0 file_1.txt file_2.txt file_3.txt
+   
+   python mergeRow_iterative.py 0 file_1.txt file_2.txt file_3.txt
 
 Note that you must give it an impute value, which will be printed if any values from file_1.txt are missing in subsequent files
     
