@@ -65,12 +65,32 @@ This script depends on `mergeRow.pl` as well as the command `sponge`. All files 
 
 Usage:
    
-   mergeRow_iterative.py impute_value file_1.txt value_2.txt etc.
+    mergeRow_iterative.py impute_value file_1.txt file_2.txt etc.
 
 Example Usage:
    
-   python mergeRow_iterative.py 0 file_1.txt file_2.txt file_3.txt
+    python mergeRow_iterative.py 0 file_1.txt file_2.txt file_3.txt
 
 Note that you must give it an impute value, which will be printed if any values from file_1.txt are missing in subsequent files
     
+For example, if file_1.txt has:
 
+    josh 1
+    aaron 2
+    rachel 3
+
+and file_2.txt has:
+    
+    josh 12
+    aaron 57
+
+and file_3.txt has:
+
+    rachel 354
+    aaron 763
+    
+Then this will produce:
+    ID  file_1.txt  file_2.txt  file_3.txt
+    josh    1           12         0
+    aaron   2           57          363
+    rachel  3           0           354
