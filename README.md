@@ -57,7 +57,7 @@ Using the -s option will produce:
     
 There are other options, that you can see with the command `perl mergeRow.pl -h`
 
-##MergeRow_iterative.py
+## MergeRow_iterative.py
 
 This script merges rows of multiple files iteratively for multiple files, based on the files passed to it from the command line. 
 This script depends on `mergeRow.pl` as well as the command `sponge`. All files must be tab delimited
